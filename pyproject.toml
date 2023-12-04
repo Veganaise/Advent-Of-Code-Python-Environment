@@ -1,0 +1,18 @@
+[project]
+name = "adventofcode"
+version = "0.1.0"
+description = "automating setup of advent of code scripts"
+authors = [{name = "Gabrielle", email = "antoine.ganne@hotmail.fr" }]
+readme = "README.md"
+
+[project.scripts]
+add-day = "scripts.add_day:add_day"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.black]
+target-version = ["py311"]
+line-length = 120
+skip-string-normalization = true

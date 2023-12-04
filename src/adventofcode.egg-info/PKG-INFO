@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: adventofcode
+Version: 0.1.0
+Summary: automating setup of advent of code scripts
+Author-email: Gabrielle <antoine.ganne@hotmail.fr>
+Description-Content-Type: text/markdown
