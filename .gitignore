@@ -1,0 +1,4 @@
+.session
+.tox
+.pytest_cache
+.env
