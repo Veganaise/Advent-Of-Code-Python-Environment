@@ -3,3 +3,4 @@
 .pytest_cache
 .env
 /3.10/Scripts/pythonw.exe
+webRessources.xml
