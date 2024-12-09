@@ -11,7 +11,7 @@ def get_input(year: int, day: int):
         data = _download_input(year, day, session)
         _save_input(data, year, day)
     else:
-        print('Session is not configured. Check your .env file')
+        print('Session is not configured. Check your .session file')
         raise Exception('Session is not configured. Check your .env file')
 
 
